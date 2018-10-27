@@ -1,0 +1,208 @@
+MPLINK 4.45, Linker
+Linker Error Map File - Created Sat Mar 29 15:15:48 2014
+
+*Warning* - This is only a partial map file due to a link time error.
+   Only sections which were allocated prior to the error are shown below.
+
+CODEPAGES:
+    Memory      Start        End              Section    Address Size(Bytes)
+ ---------  ---------  ---------            ---------  ---------  ---------
+      page     0x0000     0x5fff           _entry_scn     0x0000     0x0006
+                                       .romdata_app.o     0x0006     0x0002
+                                          high_vector     0x0008     0x0022
+                                               .cinit     0x002a     0x0086
+                                          .code_app.o     0x00b0     0x2cc0
+                                           .code_UI.o     0x2d70     0x1148
+                                         .code_uart.o     0x3eb8     0x0642
+                                          .code_lcd.o     0x44fa     0x0454
+                                 .code_communication.o     0x494e     0x0426
+                                       .code_keypad.o     0x4d74     0x03b4
+                                        .code_timer.o     0x5128     0x0250
+                                    .romdata_keypad.o     0x5378     0x0178
+                                               STRING     0x54f0     0x0104
+                                         .stringtable     0x55f4     0x00ae
+                                           _cinit_scn     0x56a2     0x009e
+                                         .code_main.o     0x5740     0x0092
+                                      .code_write_B.o     0x57d2     0x0078
+                                       .code_u2open.o     0x584a     0x0078
+                                       .code_u1open.o     0x58c2     0x0072
+                                       .code_read_B.o     0x5934     0x005c
+                                        .romdata_UI.o     0x5990     0x0050
+                                       .code_u2read.o     0x59e0     0x003e
+                                       .code_u1read.o     0x5a1e     0x003e
+                                                 PROG     0x5a5c     0x003c
+                                        .code_board.o     0x5a98     0x003c
+                                      .code_t1write.o     0x5ad4     0x0038
+                                      .code_t0write.o     0x5b0c     0x0038
+                                       .code_t0open.o     0x5b44     0x0038
+                                          D1KTCYXCODE     0x5b7c     0x0020
+                                                .code     0x5b9c     0x0020
+                                         _startup_scn     0x5bbc     0x001c
+                                     .code_fxd0808u.o     0x5bd8     0x001c
+                                    .code_heartBeat.o     0x5bf4     0x001a
+                                       .romdata_lcd.o     0x5c0e     0x0011
+                                     .romdata_c018i.o     0x5c1f     0x0000
+                                 .romdata_communication.o     0x5c1f     0x0000
+                                  .romdata_fxd0808u.o     0x5c1f     0x0000
+                                 .romdata_heartBeat.o     0x5c1f     0x0000
+                                 .romdata_interruptvector.o     0x5c1f     0x0000
+                                      .romdata_main.o     0x5c1f     0x0000
+                                    .romdata_read_B.o     0x5c1f     0x0000
+                                    .romdata_t0open.o     0x5c1f     0x0000
+                                   .romdata_t0write.o     0x5c1f     0x0000
+                                   .romdata_t1write.o     0x5c1f     0x0000
+                                     .romdata_timer.o     0x5c1f     0x0000
+                                    .romdata_u1defs.o     0x5c1f     0x0000
+                                    .romdata_u1open.o     0x5c1f     0x0000
+                                    .romdata_u1read.o     0x5c1f     0x0000
+                                    .romdata_u2defs.o     0x5c1f     0x0000
+                                    .romdata_u2open.o     0x5c1f     0x0000
+                                    .romdata_u2read.o     0x5c1f     0x0000
+                                      .romdata_uart.o     0x5c1f     0x0000
+                                   .romdata_write_B.o     0x5c1f     0x0000
+                                 .idata_heartBeat.o_i     0x5c1f     0x0001
+                                 .idata_interruptvector.o_i     0x5c1f     0x0000
+                                    .idata_keypad.o_i     0x5c1f     0x0000
+                                       .idata_lcd.o_i     0x5c1f     0x0000
+                                      .idata_main.o_i     0x5c1f     0x0000
+                                    .idata_read_B.o_i     0x5c1f     0x0000
+                                    .idata_t0open.o_i     0x5c1f     0x0000
+                                   .idata_t0write.o_i     0x5c1f     0x0000
+                                   .idata_t1write.o_i     0x5c1f     0x0000
+                                     .idata_timer.o_i     0x5c1f     0x0000
+                                    .idata_u1defs.o_i     0x5c1f     0x0000
+                                    .idata_u1open.o_i     0x5c1f     0x0000
+                                    .idata_u1read.o_i     0x5c1f     0x0000
+                                    .idata_u2defs.o_i     0x5c1f     0x0000
+                                    .idata_u2open.o_i     0x5c1f     0x0000
+                                    .idata_u2read.o_i     0x5c1f     0x0000
+                                      .idata_uart.o_i     0x5c1f     0x0000
+                                   .idata_write_B.o_i     0x5c1f     0x0000
+                                    .romdata___init.o     0x5c1f     0x0000
+                                     .romdata_board.o     0x5c1f     0x0000
+                                  .romdata_busy_eep.o     0x5c1f     0x0000
+                                     .code_busy_eep.o     0x5c20     0x0006
+                                       .code___init.o     0x5c26     0x0002
+                                            UI_DATA_i     0x5c28     0x008a
+                                          UART_DATA_i     0x5cb2     0x0086
+                                         TIMER_DATA_i     0x5d38     0x001c
+                                           LOG_DATA_i     0x5d54     0x0109
+                                           LCD_DATA_i     0x5e5d     0x0022
+                                        KEYPAD_DATA_i     0x5e7f     0x000d
+                                           IAS_DATA_i     0x5e8c     0x00d4
+                                           COM_DATA_i     0x5f60     0x0094
+                                 .idata_communication.o_i     0x5ff4     0x0002
+                                  .idata_fxd0808u.o_i     0x5ff4     0x0000
+                                     .idata_c018i.o_i     0x5ff6     0x0000
+                                  .idata_busy_eep.o_i     0x5ff6     0x0000
+                                     .idata_board.o_i     0x5ff6     0x0000
+                                       .idata_app.o_i     0x5ff6     0x0000
+                                    .idata___init.o_i     0x5ff6     0x0000
+
+    idlocs     0x0000     0x0007                                           
+
+    config     0x0000     0x000d .config_300001_main.o     0x0001     0x0001
+                                 .config_300002_main.o     0x0002     0x0001
+                                 .config_300003_main.o     0x0003     0x0001
+                                 .config_300005_main.o     0x0005     0x0001
+                                 .config_300006_main.o     0x0006     0x0001
+                                 .config_300008_main.o     0x0008     0x0001
+                                 .config_300009_main.o     0x0009     0x0001
+                                 .config_30000a_main.o     0x000a     0x0001
+                                 .config_30000b_main.o     0x000b     0x0001
+                                 .config_30000c_main.o     0x000c     0x0001
+                                 .config_30000d_main.o     0x000d     0x0001
+
+     devid     0xfffe     0xffff                                           
+
+    eedata     0x0000     0x03ff                                           
+
+
+SHAREBANKS:
+
+DATABANKS:
+    Memory      Start        End              Section    Address Size(Bytes)
+ ---------  ---------  ---------            ---------  ---------  ---------
+      gpr0     0x0060     0x00ff               .stack     0x0060     0x00a0
+
+      gpr1     0x0100     0x01ff              UI_DATA     0x0100     0x008a
+                                          KEYPAD_DATA     0x018a     0x000d
+                                           TIMER_DATA     0x0197     0x001c
+
+      gpr2     0x0200     0x02ff             LCD_DATA     0x0200     0x0022
+                                             COM_DATA     0x0222     0x0094
+                                       .udata_c018i.o     0x02b6     0x000a
+                                      .udata_u2defs.o     0x02c0     0x0001
+                                      .udata_u1defs.o     0x02c1     0x0001
+                                       .udata_board.o     0x02c2     0x0001
+                                   .idata_heartBeat.o     0x02c3     0x0001
+                                         .udata_app.o     0x02c4     0x0000
+                                    .udata_busy_eep.o     0x02c4     0x0000
+                                 .udata_communication.o     0x02c4     0x0000
+                                    .udata_fxd0808u.o     0x02c4     0x0000
+                                   .udata_heartBeat.o     0x02c4     0x0000
+                                 .udata_interruptvector.o     0x02c4     0x0000
+                                         .udata_lcd.o     0x02c4     0x0000
+                                        .udata_main.o     0x02c4     0x0000
+                                      .udata_read_B.o     0x02c4     0x0000
+                                      .udata_t0open.o     0x02c4     0x0000
+                                     .udata_t0write.o     0x02c4     0x0000
+                                     .udata_t1write.o     0x02c4     0x0000
+                                       .udata_timer.o     0x02c4     0x0000
+                                      .udata_u1open.o     0x02c4     0x0000
+                                      .udata_u1read.o     0x02c4     0x0000
+                                      .udata_u2open.o     0x02c4     0x0000
+                                      .udata_u2read.o     0x02c4     0x0000
+                                        .udata_uart.o     0x02c4     0x0000
+                                     .udata_write_B.o     0x02c4     0x0000
+                                      .idata___init.o     0x02c4     0x0000
+                                         .idata_app.o     0x02c4     0x0000
+                                       .idata_board.o     0x02c4     0x0000
+                                    .idata_busy_eep.o     0x02c4     0x0000
+                                       .idata_c018i.o     0x02c4     0x0000
+                                    .idata_fxd0808u.o     0x02c4     0x0000
+                                 .idata_interruptvector.o     0x02c4     0x0000
+                                      .idata_keypad.o     0x02c4     0x0000
+                                         .idata_lcd.o     0x02c4     0x0000
+                                        .idata_main.o     0x02c4     0x0000
+                                      .idata_read_B.o     0x02c4     0x0000
+                                      .idata_t0open.o     0x02c4     0x0000
+                                     .idata_t0write.o     0x02c4     0x0000
+                                     .idata_t1write.o     0x02c4     0x0000
+                                       .idata_timer.o     0x02c4     0x0000
+                                      .idata_u1defs.o     0x02c4     0x0000
+                                      .idata_u1open.o     0x02c4     0x0000
+                                      .idata_u1read.o     0x02c4     0x0000
+                                      .idata_u2defs.o     0x02c4     0x0000
+                                      .idata_u2open.o     0x02c4     0x0000
+                                      .idata_u2read.o     0x02c4     0x0000
+                                        .idata_uart.o     0x02c4     0x0000
+                                     .idata_write_B.o     0x02c4     0x0000
+                                          .udata_UI.o     0x02c4     0x0000
+                                      .udata___init.o     0x02c4     0x0000
+
+      gpr3     0x0300     0x03ff            UART_DATA     0x0300     0x0086
+
+      gpr4     0x0400     0x05ff             LOG_DATA     0x0400     0x0109
+
+      gpr5     0x0600     0x06ff             IAS_DATA     0x0600     0x00d4
+
+LARGE_BLOCK     0x0700     0x0df0                                           
+
+      gprF     0x0f00     0x0f37          .idata_UI.o     0x0f00     0x0024
+                                      .udata_keypad.o     0x0f24     0x0012
+                                 .idata_communication.o     0x0f36     0x0002
+
+     sfr15     0x0f38     0x0f5f          SFR_BANKED0     0x0f38     0x0028
+
+
+ACCESSBANKS:
+    Memory      Start        End              Section    Address Size(Bytes)
+ ---------  ---------  ---------            ---------  ---------  ---------
+ accessram     0x0000     0x005f            MATH_DATA     0x0000     0x0014
+                                             .tmpdata     0x0014     0x0008
+                                            DELAYDAT1     0x001c     0x0001
+
+ accesssfr     0x0f60     0x0fff        SFR_UNBANKED0     0x0f60     0x00a0
+
+
